@@ -3,7 +3,7 @@ import "../styles/translator.css";
 function TranslatedText(){
     return(
 <div className="translated-text-container">
-<p>Translated Text:</p>
+<p>Translated text in English:</p>
 </div>
     )
 }

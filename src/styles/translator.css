@@ -9,6 +9,7 @@
 }
 .translator-heading{
     font-size: 48px;
+    color: #0d6efd;
 }
 .input{
     border: none;
@@ -25,7 +26,6 @@ width: 400px;
     height: 300px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
     margin-top: 100px;
 }
 .text-to-translated-container{
@@ -42,4 +42,13 @@ width: 400px;
 .container-for-both-text-area{
     display: flex;
     justify-content: center ;
+    gap: 20px;
+}
+.main-button-container{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.information-paragraph{
+    margin-left: 30px;
 }

@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import ButtonToTranslate from "./ButtonToTranslate";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/translator.css";
 import TextToTranslate from "./TextToTranslate";
@@ -35,13 +36,17 @@ function Translator() {
                 <h1 className="translator-heading">Translator</h1>
             </div>
             <div className="container-for-both-text-area">
-            <div className="container-translate-text">
-                <TextToTranslate />
+                <div className="container-translate-text">
+                    <TextToTranslate />
+                </div>
+                <div className="container-translate-text">
+                    <TranslatedText />
+                </div>
             </div>
-            <div className="container-translate-text">
-                <TranslatedText />
+            <div className="main-button-container">
+            <ButtonToTranslate />
             </div>
-            </div>
+            <p className="information-paragraph">Because I use a free api after entering 500 letters the limit is used</p>
         </div>
     )
 }
